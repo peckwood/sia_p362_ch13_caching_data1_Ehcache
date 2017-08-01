@@ -1,0 +1,7 @@
+<ehcache>
+	<!-- 50 MB of maximum heap storage
+	time-to-live:100 seconds -->
+	<cache name="myUserCache" maxBytesLocalHeap="50m"
+		timeToLiveSeconds="100">
+	</cache>
+</ehcache>
