@@ -6,6 +6,7 @@ Doesn't include Redis.
 - `/main/java/app/config/EhCachingConfig.java`: ehCache integration configuration with Spring
 - `/main/java/app/data/UserRepository.java` use of annotations on methods
 - `/test/java/app/data/UsreRepositoryTest.java` Test class
+- added `aspectj` pom only to run xml Ehcache configuration
 
 ### Notes
 

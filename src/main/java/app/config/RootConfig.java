@@ -3,10 +3,12 @@ package app.config;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import org.springframework.context.annotation.ImportResource;
 
 @Configuration
 @ComponentScan("app")
-@Import({app.config.EhCachingConfig.class})
+//@Import({app.config.EhCachingConfig.class})
+@ImportResource("classpath:EhCachingConfig.xml")
 public class RootConfig {
 
 }

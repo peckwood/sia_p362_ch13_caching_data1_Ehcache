@@ -17,7 +17,7 @@ public interface UserRepository {
 	@CacheEvict(value={"myUserCache"})
 	void deleteByUsername(String username);
 
-	//comment me to test testCacheable
+	//comment me to test testCacheable()
 	@CachePut(value="myUserCache", key="#result.username")
 	User addUser(User user);
 	
